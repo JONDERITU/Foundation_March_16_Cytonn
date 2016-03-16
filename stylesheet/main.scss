@@ -1,4 +1,29 @@
+/*
+ * Cytonn Technologies
+ *
+ * @author: JOSEPH GICHANE <jgichane@cytonn.com>
+ *
+ * Project: FOUNDATION
+ *
+ */
+
 
 @import 'foundation';
 @include  foundation-everything;
 
+$max_height: 75%;
+$alignment: center;
+
+.max_row_height{
+	height: $max_height;
+}
+
+h1, h2{
+	text-align: alignment;
+}
+body {
+	font-family: Roboto;
+	h1{
+		font-size: 20px;
+	}
+}

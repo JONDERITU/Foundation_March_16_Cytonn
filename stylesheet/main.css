@@ -1,4 +1,12 @@
 @charset "UTF-8";
+/*
+ * Cytonn Technologies
+ *
+ * @author: JOSEPH GICHANE <jgichane@cytonn.com>
+ *
+ * Project: FOUNDATION
+ *
+ */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -3116,5 +3124,15 @@ table.hover tr:nth-of-type(even):hover {
 
   .top-bar-right {
     float: right; } }
+.max_row_height {
+  height: 75%; }
+
+h1, h2 {
+  text-align: alignment; }
+
+body {
+  font-family: Roboto; }
+  body h1 {
+    font-size: 20px; }
 
 /*# sourceMappingURL=main.css.map */
